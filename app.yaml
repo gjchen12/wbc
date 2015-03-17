@@ -29,6 +29,8 @@ handlers:
   login: admin
 - url: /xmlrpc.php
   script: wordpress/xmlrpc.php
+- url: /genxml.php
+  script: wordpress/wp-content/themes/white-child/genxml.php
 - url: /wp-(.+).php
   script: wordpress/wp-\1.php
 - url: /(.+)?/?
