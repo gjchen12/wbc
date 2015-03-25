@@ -5,6 +5,7 @@
  * @package White-child
  */
 require("dbinfo.php");
+ini_set('display_errors', 'On');
 
 // Opens a connection to a MySQL server
 
